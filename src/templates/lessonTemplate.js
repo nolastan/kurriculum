@@ -36,17 +36,24 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <aside>
-            <Media items={frontmatter.media} />
-            <form name="Lesson Feedback" method="POST" data-netlify="true">
-              <input type="hidden" name="form-name" value="Lesson Feedback" />
-              <input type="hidden" name="lesson" value={frontmatter.title} />
-              <p>
-                <label>Feedback: <textarea name="feedback"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
+            <section>
+              <h4>Media</h4>
+              <Media items={frontmatter.media} />
+            </section>
+            <section>
+              <form name="Lesson Feedback" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="Lesson Feedback" />
+                <input type="hidden" name="lesson" value={frontmatter.title} />
+                <label>
+                  <h4>Feedback</h4>
+                  <div>How can we improve this lesson?</div>
+                  <textarea name="feedback"></textarea>
+                </label>
+                <p>
+                  <button type="submit">Send Feedback</button>
+                </p>
+              </form>
+            </section>
           </aside>
         </main>
       </div>
