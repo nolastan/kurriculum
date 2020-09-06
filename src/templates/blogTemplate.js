@@ -11,6 +11,10 @@ export default function Template({
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
+        <blockquote>
+          As a result of completing the {frontmatter.title} lesson,
+          students will be able to {frontmatter.objective}.
+        </blockquote>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
