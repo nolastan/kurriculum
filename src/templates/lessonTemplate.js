@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
+import Media from "../components/media"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -27,6 +28,9 @@ export default function Template({
           As a result of completing the {frontmatter.title} lesson,
           students will be able to {frontmatter.objective}.
         </blockquote>
+        <aside>
+          <Media items={frontmatter.media} />
+        </aside>
         <div
           className="lesson-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -46,6 +50,11 @@ export const pageQuery = graphql`
         title
         objective
         emoji
+        media {
+          url
+          title
+          type
+        }
       }
     }
   }
