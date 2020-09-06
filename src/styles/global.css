@@ -1,0 +1,16 @@
+.lesson-media {
+  color: red;
+  flex: 1;
+}
+
+.lesson-content {
+  flex: 2
+}
+
+.lesson-main {
+  display: flex;
+}
+
+.lesson-media ul li {
+  list-style-type: none;;
+}

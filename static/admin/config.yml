@@ -12,16 +12,17 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: emoji, label: Emoji }
       - { name: objective, label: Learning Objective, widget: text }
-      - { name: body, label: Body, widget: markdown }
       - name: media
         label: Media
         widget: list
         fields:
-          - { name: url, label: URL, widget: string }
           - { name: title, label: Title, widget: string }
-          - { name: type, label: Type of Media, widget: string }
-      
+          - { name: url, label: URL, widget: string }
+          - name: type
+            label: Type of Media
+            widget: select
+            options: ["Video", "Podcast", "Mindfulness", "Article"]
+      - { name: body, label: Body, widget: markdown }

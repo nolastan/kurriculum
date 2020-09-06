@@ -13,28 +13,32 @@ export default function Template({
       <Helmet>
         <meta charSet="utf-8" />
         <title>{frontmatter.title}</title>
-        <link rel="shortcut icon" href={'https://emoji.beeimg.com/'+frontmatter.emoji+'/148/twitter'} />
+        <link rel="shortcut icon" href={'https://emoji.beeimg.com/'+frontmatter.emoji+'/144/twitter'} />
       </Helmet>
-      <div className="lesson">
-        <h1>
+      <div className="lesson" style={{maxWidth:'60rem',marginLeft:'auto',marginRight:'auto', padding: '1.5rem 1.125rem', position: 'relative'}}>
+        <header className="lesson-header">
           <img 
             src={'https://emoji.beeimg.com/'+frontmatter.emoji+'/148/twitter'} 
             alt={frontmatter.emoji} 
-            style={{height: '2ex', marginRight: '0.2em'}}
+            style={{height: '48px', marginRight: '0.2em', position: 'absolute', top: '1.5rem', right: '12px'}}
+            />
+          <h1>
+            {frontmatter.title}
+          </h1>
+          <blockquote>
+            As a result of completing the {frontmatter.title} lesson,
+            students will be able to {frontmatter.objective}.
+          </blockquote>
+        </header>
+        <main className="lesson-main">
+          <div
+            className="lesson-content"
+            dangerouslySetInnerHTML={{ __html: html }}
           />
-          {frontmatter.title}
-        </h1>
-        <blockquote>
-          As a result of completing the {frontmatter.title} lesson,
-          students will be able to {frontmatter.objective}.
-        </blockquote>
-        <aside>
-          <Media items={frontmatter.media} />
-        </aside>
-        <div
-          className="lesson-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+          <aside className="lesson-media">
+            <Media items={frontmatter.media} />
+          </aside>
+        </main>
       </div>
     </div>
   )
@@ -45,7 +49,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         path
         title
         objective

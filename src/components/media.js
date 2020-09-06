@@ -5,13 +5,15 @@ class Media extends React.Component {
   render() {
     if(!this.props.items) { return null }
     return (
-      this.props.items.map((item, index) => {
+      <ul>
+      {this.props.items.map((item, index) => {
         return(
           <li key={index}>
             <MediaItem item={item} />
           </li>
         )
-      })
+      })}
+      </ul>
     );
   }
 }

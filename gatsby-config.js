@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
   ]
 }
