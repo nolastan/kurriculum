@@ -37,10 +37,11 @@ export default function Template({
           />
           <aside>
             <Media items={frontmatter.media} />
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="Lesson Feedback" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="Lesson Feedback" />
+              <input type="hidden" name="lesson" value={frontmatter.title} />
               <p>
                 <label>Feedback: <textarea name="feedback"></textarea></label>
-                <input type="hidden" name="lesson" value={frontmatter.title} />
               </p>
               <p>
                 <button type="submit">Send</button>
