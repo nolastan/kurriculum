@@ -12,7 +12,10 @@ media:
     type: Podcast
   - title: The Life-Changing Power Of Turning Off Your Notifications
     url: https://womenagainstnegativetalk.com/2020/07/wantcast-episode-108-the-life-changing-power-of-turning-off-your-notifications-with-kelsey-patel/
-    type: Video
+    type: Mindfulness
+  - url: https://uxplanet.org/mobile-ux-design-the-right-ways-to-ask-users-for-permissions-6cdd9ab25c27
+    title: "Mobile UX Design: The Right Ways to Ask Users for Permissions"
+    type: Article
 ---
 Read **[Stop the spammy notifications!](https://uxdesign.cc/stop-the-spammy-notifications-9fbac87dc077)** and [Mobile UX Design: What Makes a Good Notification?](https://uxplanet.org/how-to-craft-mobile-notifications-that-users-actually-want-7b585e0e1fa1) for a solid overview.
 
