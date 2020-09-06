@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: nolastan/kurriculum
 
 media_folder: static/assets
 public_folder: /assets
