@@ -9,7 +9,14 @@ export default function Template({
   return (
     <div className="lesson-container">
       <div className="lesson">
-        <h1>{frontmatter.emoji} {frontmatter.title}</h1>
+        <h1>
+          <img 
+            src={'https://emoji.beeimg.com/'+frontmatter.emoji+'/148/twitter'} 
+            alt={frontmatter.emoji} 
+            style={{height: '2ex', marginRight: '0.2em'}}
+          />
+          {frontmatter.title}
+        </h1>
         <h2>{frontmatter.date}</h2>
         <blockquote>
           As a result of completing the {frontmatter.title} lesson,
