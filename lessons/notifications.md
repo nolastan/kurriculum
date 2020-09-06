@@ -21,8 +21,4 @@ Read **[Stop the spammy notifications!](https://uxdesign.cc/stop-the-spammy-noti
 
 ![](https://paper-attachments.dropbox.com/s_3CF9882BB11DBF56B09F04FC6D5F47981B4A6D01BCD8799A594C5F54CE39227B_1572793227348_image.png)
 
-
-
-There are some best practices to consider, too and special cases like permissions.
-
-[Mobile UX Design: The Right Ways to Ask Users for Permissions](https://uxplanet.org/mobile-ux-design-the-right-ways-to-ask-users-for-permissions-6cdd9ab25c27) should help!
+There are some best practices to consider, too and special cases like permissions
