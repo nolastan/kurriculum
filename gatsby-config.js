@@ -15,6 +15,7 @@ module.exports = {
         path: `${__dirname}/lessons`,
       },
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-react-helmet`
   ]
 }

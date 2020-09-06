@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -8,6 +9,11 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <div className="lesson-container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{frontmatter.title}</title>
+        <link rel="shortcut icon" href={'https://emoji.beeimg.com/'+frontmatter.emoji+'/148/twitter'} />
+      </Helmet>
       <div className="lesson">
         <h1>
           <img 
@@ -17,7 +23,6 @@ export default function Template({
           />
           {frontmatter.title}
         </h1>
-        <h2>{frontmatter.date}</h2>
         <blockquote>
           As a result of completing the {frontmatter.title} lesson,
           students will be able to {frontmatter.objective}.
