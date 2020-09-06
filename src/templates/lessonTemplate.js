@@ -35,8 +35,17 @@ export default function Template({
             className="lesson-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <aside className="lesson-media">
+          <aside>
             <Media items={frontmatter.media} />
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Feedback: <textarea name="feedback"></textarea></label>
+                <input type="hidden" name="lesson" value={frontmatter.title} />
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+            </form>
           </aside>
         </main>
       </div>
