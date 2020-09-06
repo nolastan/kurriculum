@@ -7,8 +7,8 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
+    <div className="lesson-container">
+      <div className="lesson">
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <blockquote>
@@ -16,7 +16,7 @@ export default function Template({
           students will be able to {frontmatter.objective}.
         </blockquote>
         <div
-          className="blog-post-content"
+          className="lesson-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>

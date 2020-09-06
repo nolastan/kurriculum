@@ -6,9 +6,9 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: lesson
+    label: Lessons
+    folder: lessons
     create: true
     fields:
       - { name: path, label: Path }
@@ -16,3 +16,4 @@ collections:
       - { name: title, label: Title }
       - { name: objective, label: Learning Objective, widget: text }
       - { name: body, label: Body, widget: markdown }
+      
