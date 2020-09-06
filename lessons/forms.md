@@ -5,9 +5,11 @@ title: Forms
 emoji: 📋
 objective: design accessible and engaging forms, and choose the appropriate
   field for collecting various types of information
+media:
+  - title: You Suck at Form Design (Probably)
+    url: https://www.youtube.com/watch?v=z9H7p1_iI14
+    type: Video
 ---
-[📺](https://www.youtube.com/watch?v=z9H7p1_iI14) [You Suck at Form Design](https://www.youtube.com/watch?v=z9H7p1_iI14) [](https://www.youtube.com/watch?v=z9H7p1_iI14) [((Probably))](https://www.youtube.com/watch?v=z9H7p1_iI14)
-
 Forms are the primary way users provide information.
 
 # Form Fields
