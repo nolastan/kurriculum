@@ -9,7 +9,7 @@ export default function Template({
   return (
     <div className="lesson-container">
       <div className="lesson">
-        <h1>{frontmatter.title}</h1>
+        <h1>{frontmatter.emoji} {frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <blockquote>
           As a result of completing the {frontmatter.title} lesson,
@@ -33,6 +33,7 @@ export const pageQuery = graphql`
         path
         title
         objective
+        emoji
       }
     }
   }

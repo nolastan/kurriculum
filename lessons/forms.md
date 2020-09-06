@@ -4,6 +4,7 @@ date: 2020-09-06T15:08:19.470Z
 title: Forms
 objective: design accessible and engaging forms, and choose the appropriate
   field for collecting various types of information
+emoji: 📋
 ---
 # 📋 Forms
 

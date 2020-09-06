@@ -14,6 +14,7 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: emoji, label: Emoji }
       - { name: objective, label: Learning Objective, widget: text }
       - { name: body, label: Body, widget: markdown }
       
