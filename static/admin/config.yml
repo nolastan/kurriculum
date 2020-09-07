@@ -6,23 +6,44 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: lesson
-    label: Lessons
+  - name: lessons
+    label: Lesson
     folder: lessons
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: title, label: Title }
-      - { name: emoji, label: Emoji }
-      - { name: objective, label: Learning Objective, widget: text }
+      - &Path { name: path, label: Path }
+      - &Title { name: title, label: Title }
+      - &Emoji { name: emoji, label: Emoji }
+      - &Objective { name: objective, label: Learning Objective, widget: text }
       - name: media
         label: Media
         widget: list
         fields:
-          - { name: title, label: Title, widget: string }
+          - *Title
           - { name: url, label: URL, widget: string }
           - name: type
             label: Type of Media
             widget: select
             options: ["Video", "Podcast", "Mindfulness", "Article"]
       - { name: body, label: Body, widget: markdown }
+  - name: module
+    label: Module
+    folder: modules
+    create: true
+    fields:
+      - *Path
+      - *Title
+      - *Emoji
+      - *Objective
+      - name: lessons
+        label: Lessons
+        widget: list
+        fields:
+        - label: Lesson
+          name: lesson
+          widget: relation
+          collection: lessons
+          searchFields: [title]
+          valueField: title
+          displayFields: [emoji, title]
+          
