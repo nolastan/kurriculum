@@ -23,9 +23,7 @@ Forms consist of one or more *fields*. In a traditional, paper-based form, we mi
 
 A text field is the most basic type of input. In HTML, the <input> tag defaults to a text field. Text fields are ideal for short, free-form text. *Free-form* here means that the user can type anything into the box.
 
-![whimsical](https://paper-attachments.dropbox.com/s_7747184B7AC92FD1C6AF8A3A30DD37BC3D00981766077810C219AF88B185337C_1551369362483_whims.jpg "whimsical") In Whimsical, you can quickly insert a text field with the keyboard shortcut **P**.
-
-If a keyboard user presses enter or return while focused on a text field, the form will submit. To enable multiple lines or paragraphs, use a text area.
+🛠 In Whimsical, you can quickly insert a text field with the keyboard shortcut **P**.If a keyboard user presses enter or return while focused on a text field, the form will submit. To enable multiple lines or paragraphs, use a text area.
 
 ## Text Area
 
@@ -33,7 +31,7 @@ If a keyboard user presses enter or return while focused on a text field, the fo
 
 Text areas are similar to text fields, except they allow for multiple lines of text. On Mac OS, users can resize text fields by clicking and dragging the diagonal lines at the bottom-right. With some assistance from JavaScript, developers can dynamically resize a text area based on how much text is entered. Text areas are ideal for long, free-form text.
 
-Keyboard users can create new lines or paragraphs by pressing enter or return while focused on a text area, without the form submitting.
+Keyboard users can create new lines or paragraphs by pressing `enter` or `return` while focused on a text area, without the form submitting.
 
 ## Checkboxes
 
@@ -55,11 +53,9 @@ Radio buttons might just look like round checkboxes, but there is a key differen
 
 ![](https://paper-attachments.dropbox.com/s_384961FBBBD46E6F8BD319E69057F39099099AD0C8B590484353B51FDFEB8B0B_1598572637124_image.png)
 
-Dropdowns (or *select fields* in HTML) are functionally similar to radio buttons in that the user can select one item from a list. The user experience is slightly different because the options are only revealed upon activating the dropdown.
+Dropdowns (or *select fields* in HTML) are functionally similar to radio buttons in that the user can select one item from a list. The user experience is slightly different because the options are only revealed upon activating the dropdown. [Research from CXL](https://cxl.com/research-study/form-field-usability-buttons/) suggests that radio buttons are more efficient than dropdowns. Andrew Coyle, in [Design Better Forms](https://medium.com/nextux/design-better-forms-96fadca0f49c), suggests using a dropdown when you have more than 5 options. For more research-driven tips, read [Simple Rules for Designing Web & Mobile Forms](http://subtract.design/entry/forms/).
 
-[Research from CXL](https://cxl.com/research-study/form-field-usability-buttons/) suggests that radio buttons are more efficient than dropdowns. Andrew Coyle, in [Design Better Forms](https://medium.com/nextux/design-better-forms-96fadca0f49c), suggests using a dropdown when you have more than 5 options. For more research-driven tips, read [Simple Rules for Designing Web & Mobile Forms](http://subtract.design/entry/forms/).
-
-![whimsical](https://paper-attachments.dropbox.com/s_7747184B7AC92FD1C6AF8A3A30DD37BC3D00981766077810C219AF88B185337C_1551369362483_whims.jpg "whimsical") In Whimsical, you can quickly create additional dropdown options, checkboxes, or radio buttons using the return or enter key.
+🛠 In Whimsical, you can quickly create additional dropdown options, checkboxes, or radio buttons using the return or enter key.
 
 ## Toggle
 
@@ -85,7 +81,7 @@ Labels and placeholders are often used interchangeably. This is unfortunate, bec
 
 The goal of a label is to communicate to the user what information they need to provide. In left-to-right languages such as English, labels can be placed above or to the left of a field. Labels can be accompanied by *help text* to provide further context.
 
-![whimsical](https://paper-attachments.dropbox.com/s_7747184B7AC92FD1C6AF8A3A30DD37BC3D00981766077810C219AF88B185337C_1551369362483_whims.jpg "whimsical") In Whimsical, you can add a label from the context menu:
+🛠 In Whimsical, you can add a label from the context menu:
 
 ![](https://paper-attachments.dropbox.com/s_384961FBBBD46E6F8BD319E69057F39099099AD0C8B590484353B51FDFEB8B0B_1598639277348_20200828142747383.gif)
 
@@ -93,7 +89,7 @@ The goal of a label is to communicate to the user what information they need to 
 
 Placeholders can be useful for indicating to the user what kind of information should be entered into the field. However, because placeholders disappear once text is entered, some experts advise against ever using placeholders.
 
-* “Placeholder text within a form field makes it difficult for people to remember what information belongs in a field, and to check for and fix errors. It also poses additional burdens for users with visual and cognitive impairments.” — [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) from Nielson Norman Group
+> “Placeholder text within a form field makes it difficult for people to remember what information belongs in a field, and to check for and fix errors. It also poses additional burdens for users with visual and cognitive impairments.” — [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) from Nielson Norman Group
 
 # Design Better Forms
 
@@ -106,12 +102,3 @@ Consider the example below. Compare it to the examples above for radio buttons a
 ![](https://paper-attachments.dropbox.com/s_384961FBBBD46E6F8BD319E69057F39099099AD0C8B590484353B51FDFEB8B0B_1598639986503_image.png)
 
 For an in-depth look at a design team that iterated on their forms to make them more engaging, read [Beyond Likert scales: How a team made form-filling more fun](https://www.invisionapp.com/inside-design/beyond-likert-scales).
-
-# Practice
-
-![](https://paper-attachments.dropbox.com/s_384961FBBBD46E6F8BD319E69057F39099099AD0C8B590484353B51FDFEB8B0B_1598640867963_image.png)
-
-1. Choose a sample form from [Elbowspace](https://www.elbowspace.com/FRHformexamples).
-2. In a new Whimsical Wireframe, insert the URL of the sample using the Link tool (**K**) for reference.
-3. Redesign the form in Whimsical.
-4. Review the form, and consider how you can make it more engaging.
