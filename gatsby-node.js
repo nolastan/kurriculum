@@ -31,6 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         component: lessonTemplate,
         context: {
           // additional data can be passed via context
+          path: node.frontmatter.path,
         },
       })
     })

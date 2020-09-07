@@ -21,11 +21,9 @@ media:
   - url: https://uxrfieldguide.com/methodologies/card-sort/
     title: Card Sort
     type: Article
-    source: UI Breakfast
     note: A brief summary of what we cover in this lesson. Helpful for quick review.
+    source: UX Research Field Guide
 ---
-
-![](https://paper-attachments.dropbox.com/s_5519C482C8736651FF0F91A7859B6C368FC6484BDFF023F581A9BFC9256E6E29_1585592957069_Patterns_Intro.png)
 
 # What is Card Sorting?
 

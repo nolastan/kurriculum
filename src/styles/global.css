@@ -29,8 +29,24 @@ button { width: 100%; }
   display: flex;
 }
 
+.lesson-media{
+  font-size: 80%;
+}
+
+.lesson-media a:link, .lesson-media a:visited {
+  background: none; 
+  color: inherit;
+  display: block;
+  color: slategray;
+}
+
+.lesson-media .link-title {
+  text-decoration: underline;
+  color: darkslategray;
+}
+
 ul {
-  margin: 0;
+  margin: 2ex 0;
 }
 
 ul li {

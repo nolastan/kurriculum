@@ -22,7 +22,7 @@ export default function Template({
             alt={frontmatter.emoji} 
             style={{height: '48px', marginRight: '0.2em', position: 'absolute', top: '1.5rem', right: '12px'}}
             />
-          <h1>
+          <h1 style={{fontSize: "300%"}}>
             {frontmatter.title}
           </h1>
           <blockquote>
@@ -36,7 +36,7 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <aside>
-            <section>
+            <section className="lesson-media">
               <h4>Media</h4>
               <Media items={frontmatter.media} />
             </section>
@@ -74,6 +74,8 @@ export const pageQuery = graphql`
           url
           title
           type
+          note
+          source
         }
       }
     }

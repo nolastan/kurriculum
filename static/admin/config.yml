@@ -21,6 +21,8 @@ collections:
         fields:
           - *Title
           - { name: url, label: URL, widget: string }
+          - { name: source, label: "Source / Author", widget: string }
+          - { name: note, label: Note, widget: text }
           - name: type
             label: Type of Media
             widget: select

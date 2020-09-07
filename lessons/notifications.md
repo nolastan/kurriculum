@@ -7,15 +7,23 @@ media:
   - title: Nir Eyal on Good Product Notifications
     url: https://www.youtube.com/watch?v=yndvDlF_Pdg
     type: Video
+    note: ""
+    source: ""
   - title: The Psychology of Notifications (also with Nir Eyal)
     url: https://oldpodcast.com/788-the-psychology-of-notifications-how-to-send-triggers-that-work-by-nir-eyal-ximena-vengoechea-with-nir-and-far/
     type: Podcast
+    note: ""
+    source: ""
   - title: The Life-Changing Power Of Turning Off Your Notifications
     url: https://womenagainstnegativetalk.com/2020/07/wantcast-episode-108-the-life-changing-power-of-turning-off-your-notifications-with-kelsey-patel/
     type: Mindfulness
+    note: ""
+    source: ""
   - url: https://uxplanet.org/mobile-ux-design-the-right-ways-to-ask-users-for-permissions-6cdd9ab25c27
     title: "Mobile UX Design: The Right Ways to Ask Users for Permissions"
     type: Article
+    note: ""
+    source: ""
 ---
 Read **[Stop the spammy notifications!](https://uxdesign.cc/stop-the-spammy-notifications-9fbac87dc077)** and [Mobile UX Design: What Makes a Good Notification?](https://uxplanet.org/how-to-craft-mobile-notifications-that-users-actually-want-7b585e0e1fa1) for a solid overview.
 
