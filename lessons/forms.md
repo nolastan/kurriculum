@@ -89,7 +89,9 @@ The goal of a label is to communicate to the user what information they need to 
 
 Placeholders can be useful for indicating to the user what kind of information should be entered into the field. However, because placeholders disappear once text is entered, some experts advise against ever using placeholders.
 
-> “Placeholder text within a form field makes it difficult for people to remember what information belongs in a field, and to check for and fix errors. It also poses additional burdens for users with visual and cognitive impairments.” — [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) from Nielson Norman Group
+> Placeholder text within a form field makes it difficult for people to remember what information belongs in a field, and to check for and fix errors. It also poses additional burdens for users with visual and cognitive impairments. 
+>
+> <cite>— [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) from Nielson Norman Group:</cite>
 
 # Design Better Forms
 
