@@ -2,7 +2,7 @@
 path: card-sorting
 title: Card Sorting
 emoji: 🃏
-objective: ""
+objective: "research user's expected organization of data"
 media:
   - url: https://www.youtube.com/watch?v=xUPpG3JCx6I
     title: What is card sorting?
@@ -16,7 +16,7 @@ media:
   - url: https://www.massdevice.com/focusing-on-usability-can-limit-medical-device-recalls-heres-how/
     title: "Focusing on usability can limit medical device recalls: Here’s how"
     type: Article
-    source: UI Breakfast
+    source: MassDevice
     note: A reminder of why it’s so important to conduct usability research techniques such as Card Sorting
   - url: https://uxrfieldguide.com/methodologies/card-sort/
     title: Card Sort
@@ -25,10 +25,9 @@ media:
     source: UX Research Field Guide
 ---
 
-# What is Card Sorting?
-
 During the *Wireframing* section, you likely created some initial iterations of your app’s navigation. In the next lesson, we’ll focus purely on navigation. Now, we’ll step out of our wireframes for a moment to explore two research techniques: *Card Sorting* and *Tree Testing.* 
 
+# What is Card Sorting?
 To get started, read [**4 Research Techniques for Website Redesigns**](https://www.invisionapp.com/blog/research-techniques-for-website-redesigns/). For a more in-depth explanation and some practical tips, read Optimal Workshop’s [](https://www.optimalworkshop.com/101/card-sorting)[**Card Sorting 101**](https://www.optimalworkshop.com/101/card-sorting).
 
 These techniques will provide you with research artifacts that will inform your navigation structure.
