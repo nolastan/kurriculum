@@ -176,7 +176,8 @@ There several attributes for an `<a>` tag. Let’s go over a few of the common o
     <!-- links to element on this page with id="page-section" -->
     <a href="#page-section">Link to page section</a>
     
-    <!-- External link that opens in a new window/tab using an image instead of text -->
+    <!-- External link that opens in a new window/tab -->
+    <!-- using an image instead of text -->
     <a href="https://developer.mozilla.org/en-US/" target="_blank">
       <img src="https://mdn.mozillademos.org/files/6851/mdn_logo.png"/>
     </a>
