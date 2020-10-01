@@ -12,6 +12,14 @@ media:
       should be able to describe the role of HTML in authoring web content, and
       describe the different parts of an HTML element.
     type: Video
+  - title: HTML Tags and Attributes
+    note: What is HTML? A programming language? No, not a programming language—a
+      markup language. Hypertext Markup Language. Markup, because we use tags to
+      mark up the content of a document. This is a heading, that's a paragraph,
+      and so on. HTML tells the web browser about your document's structure.
+    source: Dave Strus
+    url: https://player.vimeo.com/video/351431557
+    type: Video
 ---
 # Intro
 
@@ -174,7 +182,7 @@ Read through [Internetting is Hard: Basic Web Pages](https://www.internetingisha
 
 ## Vocabulary
 | Term                    | Definition                                                                                                                                           |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -- | ----- |
 | **HTML**                | HyperText Markup Language                                                                                                                            |
 | **Tag**                 | A specific type of HTML element with a meaning e.g. <div> <p> etc…                                                                                   |
 | **Element**             | An instance of a tag in an HTML document.  This is the basic unit of a piece of HTML                                                                 |
