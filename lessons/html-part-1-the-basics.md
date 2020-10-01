@@ -7,7 +7,7 @@ objective: create a static web page including text and images that conforms to
 media:
   - title: HTML & Hypertext
     url: https://player.vimeo.com/video/322701227
-    source: Dave Strus
+    source: Davey Strus
     note: In this first video, we're going to get started with HTML. By the end, you
       should be able to describe the role of HTML in authoring web content, and
       describe the different parts of an HTML element.
@@ -17,8 +17,22 @@ media:
       markup language. Hypertext Markup Language. Markup, because we use tags to
       mark up the content of a document. This is a heading, that's a paragraph,
       and so on. HTML tells the web browser about your document's structure.
-    source: Dave Strus
+    source: Davey Strus
     url: https://player.vimeo.com/video/351431557
+    type: Video
+  - title: HTML Structure
+    url: https://player.vimeo.com/video/351465940
+    source: Davey Strus
+    note: We understand tags and attributes. Now let's talk about the overall
+      structure of an HTML page.
+    type: Video
+  - title: Marking Up Text
+    url: https://player.vimeo.com/video/351686249
+    source: Davey Strus
+    note: >
+      We know that HTML documents have a head, containing metadata and links to
+      external files, and a body, where the actual content belongs. Let's look
+      at some of the elements we can use to mark up that content.
     type: Video
 ---
 # Intro
@@ -81,45 +95,45 @@ In this section we will take a look at the structure of an html file. We will di
 
 
 ## Doctype
-    `<!DOCTYPE html>` informs the browser which version of HTML will be used in this document. In this case we are declaring that we will be using HTML5. Doctype is special in that it’s not really considered a tag but a declaration. What you really need to understand about this tag/declaration is that it should be present and the first line in your HTML file.
+`<!DOCTYPE html>` informs the browser which version of HTML will be used in this document. In this case we are declaring that we will be using HTML5. Doctype is special in that it’s not really considered a tag but a declaration. What you really need to understand about this tag/declaration is that it should be present and the first line in your HTML file.
 
 
 ## Html
-    `<html>` is the tag that represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element. That being said, notice the matching closing </html> tag on the last line.
+`<html>` is the tag that represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element. That being said, notice the matching closing </html> tag on the last line.
 
 
 ## Head
-    `<head>` is that tag that contains descriptive information about your page like the page’s title `<title>`. This is also where you would include things like <meta> and style sheets. We will get into more of that stuff later in the curriculum. Notice the `<title>` tag has a closing tag, `</title>`, just like the `<html>` tag. 
+`<head>` is that tag that contains descriptive information about your page like the page’s title `<title>`. This is also where you would include things like <meta> and style sheets. We will get into more of that stuff later in the curriculum. Notice the `<title>` tag has a closing tag, `</title>`, just like the `<html>` tag. 
 
 
 [Recommended Reading](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
 
 ## Title
-    `<title>` is the tag that defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored. It is followed by the closing `</title>` tag.
+`<title>` is the tag that defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored. It is followed by the closing `</title>` tag.
 ## Body 
-    `<body>` represents the content of an HTML document. There can be only one `<body>` element in an HTML document. This is where the things you want people to see would go. I am going to stop pointing out the closing tags. I think you got it by now.
+`<body>` represents the content of an HTML document. There can be only one `<body>` element in an HTML document. This is where the things you want people to see would go. I am going to stop pointing out the closing tags. I think you got it by now.
 # Some common tags explained
 
 Let's take some time to cover some of the most common HTML tags you will use when creating web applications. This will be an interactive lesson so we can see the result of using these tags in a browser. We will build a simple travel page for our example.
 
 
 ## Headings
-    The HTML `<h1>` – `<h6>` tags represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.
+The HTML `<h1>` – `<h6>` tags represent six levels of section headings. `<h1>` is the highest section level and `<h6>` is the lowest.
 
 
 ## Paragraphs
-    The HTML `<p>` tag represents a paragraph of text.
+The HTML `<p>` tag represents a paragraph of text.
 
 
 ## Lists
-    HTML has the ability to display lists. Lists are typically ordered or unordered. `<ol>` represents an ordered and `<ul>` represents an unordered list. Ordered lists are numbered and unordered lists use some type of bullet. List items are represented by the `<li>` tag in both ordered and unordered lists.
+HTML has the ability to display lists. Lists are typically ordered or unordered. `<ol>` represents an ordered and `<ul>` represents an unordered list. Ordered lists are numbered and unordered lists use some type of bullet. List items are represented by the `<li>` tag in both ordered and unordered lists.
     
 ## Links
-    Links are represented by the anchor tag ( `<a>`). The anchor tag creates a hyperlink. A hyperlink is a link from one page to another location or file, typically activated by clicking on a highlighted word or image on the screen. A hyperlink can take the user to other web pages, files, locations within the same page, email addresses, or any other URL. The text or element between the opening and closing `<a>` tag is what becomes the link.
+Links are represented by the anchor tag ( `<a>`). The anchor tag creates a hyperlink. A hyperlink is a link from one page to another location or file, typically activated by clicking on a highlighted word or image on the screen. A hyperlink can take the user to other web pages, files, locations within the same page, email addresses, or any other URL. The text or element between the opening and closing `<a>` tag is what becomes the link.
     
-    **Basic anatomy of the anchor tag** `**<a>**`
-        There several attributes for an `<a>` tag. Let’s go over a few of the common ones.
+**Basic anatomy of the anchor tag** `**<a>**`
+There several attributes for an `<a>` tag. Let’s go over a few of the common ones.
         - **href** - The URL or destination hyperlink points to.
         - **target** - Specifies where to display the linked URL. Below are the most common values used.
             - **_self:** Load the URL into the same browser window as the current one. This is the default behavior if the target attribute is not used.
