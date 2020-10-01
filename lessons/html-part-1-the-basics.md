@@ -34,6 +34,25 @@ media:
       external files, and a body, where the actual content belongs. Let's look
       at some of the elements we can use to mark up that content.
     type: Video
+  - title: Block and Inline Elements
+    url: https://player.vimeo.com/video/351701865
+    source: Davey Strus
+    note: We've been happily nesting elements inside one another, and it's been fine.
+    type: Video
+  - note: We can do all kinds of fancy things with text now, but it's still just
+      text. We want hypertext! For that, we need hyperlinks.
+    source: Davey Strus
+    url: https://player.vimeo.com/video/352314561
+    title: Hyperlinks
+    type: Video
+  - title: HTML Lists
+    url: https://player.vimeo.com/video/352063457
+    note: We're making good progress on learning HTML, but our pages are still
+      pretty boring, with just headers and paragraphs, with the occasional bold
+      or italicized phrase. Let's spice things up with some lists. A mild spice,
+      to be sure, but a spice nonetheless.
+    source: Davey Strus
+    type: Video
 ---
 # Intro
 
