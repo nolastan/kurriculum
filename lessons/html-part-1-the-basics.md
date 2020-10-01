@@ -53,14 +53,25 @@ media:
       to be sure, but a spice nonetheless.
     source: Davey Strus
     type: Video
+  - title: HTML Element/Tag Reference
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+    source: Mozilla Developer Network
+    note: A useful resource
+    type: Article
+  - title: HTML 5 Reference
+    url: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+    source: Mozilla Developer Network
+    note: A useful reference
+    type: Article
+  - title: The Fundamentals - HTML + CSS
+    url: https://syntax.fm/show/158/the-fundamentals-html-css
+    source: Syntax.fm
+    note: A podcast about HTML
+    type: Podcast
 ---
 # Intro
 
 Let's take a dive into HTML (Hyper Text Markup Language). HTML is the markup language that provides us a structured way to create web pages. When we use the tags available to us through HTML we can control how almost everything is presented to the user via their web browser. Your web browser is what interprets the tags to present what the end user sees.
-
-## Useful Resources
-* [HTML Element/Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-* [HTML 5 Reference](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
 ## HTML and its Tags
 
