@@ -59,9 +59,8 @@ media:
 Let's take a dive into HTML (Hyper Text Markup Language). HTML is the markup language that provides us a structured way to create web pages. When we use the tags available to us through HTML we can control how almost everything is presented to the user via their web browser. Your web browser is what interprets the tags to present what the end user sees.
 
 ## Useful Resources
-
-[HTML Element/Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-[HTML 5 Reference](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [HTML Element/Tag Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+* [HTML 5 Reference](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
 ## HTML and its Tags
 
@@ -110,7 +109,7 @@ In this section we will take a look at the structure of an html file. We will di
 
 **Lets take a look at some of these tags/elements**
 
-💡 To learn about any HTML tag, enter `mdn.io/``**tag**` in your browser’s URL bar. Replace *tag* with what tag you interested in. For example: [mdn.io/img](http://mdn.io/img) or [mdn.io/title](http://mdn.io/title).
+💡 To learn about any HTML tag, enter `mdn.io/tag` in your browser’s URL bar. Replace *tag* with what tag you interested in. For example: [mdn.io/img](http://mdn.io/img) or [mdn.io/title](http://mdn.io/title).
 
 
 ## Doctype
@@ -158,7 +157,7 @@ There several attributes for an `<a>` tag. Let’s go over a few of the common o
             - **_self:** Load the URL into the same browser window as the current one. This is the default behavior if the target attribute is not used.
             - **_blank:** Load the URL into a new browser window or tab based on how the users browser is configured.
 
-[*Further Reading on the*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) `[*<a>*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)` [*tag*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+[Further Reading on the `<a>` tag →](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 **Basic anchor examples**
 
@@ -215,7 +214,7 @@ Read through [Internetting is Hard: Basic Web Pages](https://www.internetingisha
 
 ## Vocabulary
 | Term                    | Definition                                                                                                                                           |
-| -- | ----- |
+| ------ | ----- |
 | **HTML**                | HyperText Markup Language                                                                                                                            |
 | **Tag**                 | A specific type of HTML element with a meaning e.g. <div> <p> etc…                                                                                   |
 | **Element**             | An instance of a tag in an HTML document.  This is the basic unit of a piece of HTML                                                                 |
