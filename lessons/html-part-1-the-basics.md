@@ -68,6 +68,11 @@ media:
     source: Syntax.fm
     note: A podcast about HTML
     type: Podcast
+  - title: Walkthrough
+    url: https://kenzie.zoom.us/rec/play/tJEqcrqrpzg3HdaTuQSDU_MvW9XpKq2sg3MZr_RcxUyzUXALZgD3ZrMUNufIRnp2wP_H8knOphgs9ZeA?continueMode=true&_x_zm_rtaid=uZdXCtwnQGG8ievNp6d14w.1596132496401.eeb1c7d36dbac0098b58ffa077f335c8&_x_zm_rhtaid=82
+    source: Randy Cox
+    note: Randy's live demo to the July 2020 Cohort
+    type: Video
 ---
 # Intro
 
