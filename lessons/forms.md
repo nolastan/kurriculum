@@ -8,6 +8,8 @@ media:
   - title: You Suck at Form Design (Probably)
     url: https://www.youtube.com/watch?v=z9H7p1_iI14
     type: Video
+    source: DesignCourse
+    note: Pitfalls to watch out for.
 ---
 Forms are the primary way users provide information.
 
@@ -91,7 +93,7 @@ Placeholders can be useful for indicating to the user what kind of information s
 
 > Placeholder text within a form field makes it difficult for people to remember what information belongs in a field, and to check for and fix errors. It also poses additional burdens for users with visual and cognitive impairments. 
 >
-> <cite>— [Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) from Nielson Norman Group:</cite>
+> <cite>[Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/) from Nielson Norman Group</cite>
 
 # Design Better Forms
 
