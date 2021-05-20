@@ -9,4 +9,5 @@ lessons:
   - lesson: Notifications
   - lesson: Forms
   - lesson: Dogs
+  - lesson: "HTML Part 1: The Basics"
 ---
